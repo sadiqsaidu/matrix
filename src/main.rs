@@ -1,3 +1,4 @@
+// cholesky factorization algorithm
 fn cholesky_factorization(a: &Vec<Vec<f64>>) -> Option<Vec<Vec<f64>>> {
     let n = a.len();
     let mut l = vec![vec![0.0; n]; n];
